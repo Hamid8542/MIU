@@ -2,6 +2,9 @@
 //inputs and computes distance between these two points based on
 //the formula, d = √( x 2 − x 1 ) 2 + ( y 2 − y 1 ) 2
 
+// <><><><><>><><><      <><><><><><><>
+
+
 const prompt = require ("prompt-sync")();
 
 const x1 = prompt (" Enter x1 coordinate : ")
