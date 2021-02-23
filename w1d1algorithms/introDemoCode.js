@@ -18,3 +18,7 @@ let sum = x + y;
 
 console.log(sum);
 
+const myBirthday = "10/10/2010";
+
+console.log(myBirthday)
+
