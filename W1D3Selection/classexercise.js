@@ -7,4 +7,5 @@ y++;
 console.log(x,y);
 y = false;
 console.log(x<y);
+console.log()
 
