@@ -102,3 +102,32 @@ a. In computer programming, a statement can be part of an expression. False
    I think an experassion is part of a statement
 b. In computer programming, an expression can be a part of a statement. True
     Ya experation is part of statement
+
+
+Q4 of today's assignment (part 2)  What is the use of || and && operators (logical-or and logical-and) in JavaScript? 
+   Explain with an example of each.
+
+  || or && work on boolean values ( Any non zero value is true ) 
+ to produce a boolean result.
+
+ For example:
+   2  ||  1  = true
+   0  ||  0  = false
+
+   2  &&  1  = true 
+   2  &&  0  = false
+
+   how it works ? we know that boolean && >>> 
+    true || true > true
+    false || true > true
+    true || false > true
+    false || false > false
+
+    whereas && >>> 
+    
+    true && true > true
+    false && true > false
+    true && false > false
+    false && false > false
+
+
