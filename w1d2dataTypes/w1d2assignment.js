@@ -66,7 +66,7 @@ Answer the following questions in a word document based on your reading assignme
    /* What will be the out of this code ?
    */
   let a = b = 2;
-  let c = 3 - (a + b + 1);  // c = -2
+  let c = 3 - (a + b + 1);
   console.log(a--); // 2
   console.log(++c); // -1
   console.log(a);   //  1
@@ -94,14 +94,6 @@ we don't need to use parseInt
   if x isn’t defined, then y.
   in general The nullish coalescing operator ?? provides a short way to choose the 
   first “defined” value from a list.
-
-  for example 
-    
-let user;
-alert(user ?? "Anonymous"); // Anonymous (user not defined)
-
-let user = "John";
-alert(user ?? "Anonymous"); // John (user defined)
 
   /*
 5. Which of the following statements is true?
@@ -139,47 +131,3 @@ Q4 of today's assignment (part 2)  What is the use of || and && operators (logic
     false && false > false
 
 
-let user;
-alert(user ?? "Anonymous"); // Anonymous (user not defined)
-
-let user = "John";
-alert(user ?? "Anonymous"); // John (user defined)
-
-
-Feb 24,2021
-class exercise
-
-1. what does it mean to say javascript is dynamically typed?
-
-Ans : At runtime variable type is determined by what is dynamically assigned to them
-
-2. what does it mean to say javascript is loosely Typed?
-
-Ans. do not have to specify types of variables in advanced
-
-3.are null and undefined the same thing in javascript? what is the difference ?
-
-Ans. Null is aassigned by programmer to indicate to known value yet . undefined is the value given by the compiler that have not been assigned a value
-
-4what value are falsy? truthy?
-Ans
-0, "", null, undefined, false, 0.0
-everything else
-
-5.is it better to use == or ===? why?
-
-=== because it doesn't do automatic type conversion
-
-6.write code the illustration an error if you do not properly convert user input?
-
-
-
-7.what will be the output of running following code.
-
-let x = null
-let y 
-
-console.log(typeof(x)); // object
-console.log(typeof(y)); // 
-console.log(typeof(x++)); //
-y++; //

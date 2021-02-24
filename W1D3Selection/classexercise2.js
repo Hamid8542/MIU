@@ -80,3 +80,4 @@ if(number === 4){
 if(number === 5){
     console.log(" Number " + number + "spelled as : Five ")
 }
+
