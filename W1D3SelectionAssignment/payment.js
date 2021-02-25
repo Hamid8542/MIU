@@ -23,5 +23,5 @@ let housecost = prompt("How much is  your House Cost :");
          downPayment = (2000 + 0.2*(housecost - 100000));
    }
 else(housecost >= 200000)
-        downPayment = ((housecost - 200000) * 0.25 + 5000);
+        downPayment = ((housecost - 200000) * 0.01 + 5000);
         console.log(`Your downPayment will be ${downPayment}`)  
