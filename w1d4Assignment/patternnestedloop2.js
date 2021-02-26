@@ -12,20 +12,13 @@
 // 12345
 // */
 
-// for (let i = 5; i <= 5; i--){
-//     let row = " ";
-//     for (let j = 1; j <= i; j++){
-//       row -= 5 +"\t" ;
-//     }
-//       console.log(row)
-//     }
-//     // for (let i = 1; i <= 5; i++){
-//     //     let row = " ";
-//     //     for (let j = 1; j <= i; j++){
-//     //       row += i +"\t" ;
-//     //     }
-//     //       console.log(row)
-//     //     }
+for (let i = 1; i <= 5; i++){
+    let row = " ";
+    for (let j = 5; j <= i; j--){
+      row += j +"\t" ;
+    }
+      console.log(row)
+}
 // let a;
 // let n = prompt("Enter a number for the no. of rows in a pattern");
 // for(let i = 1 ; i <= n ; i++)
@@ -38,15 +31,15 @@
 
 
 
-  for(i=1; i <= 5; i++)
- {
-  for(j=1; j<=i; j++)
- {
-   document.write(j);
-   if(j == i)
-   continue;
-   else
-   document.write(' ');
-  }
-   document.write('<br />');
-  }
+//   for(i = 1; i <= 5; i++){
+
+//   for(j = 1; j <= i; j++){
+//     row += i + "\t" ;
+//     console.log(j);
+//   }
+//    if(j == i)
+//    continue;
+//    else
+//    console.log(j);
+//    }
+  
