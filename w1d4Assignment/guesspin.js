@@ -5,24 +5,24 @@
    locked out.”
 */
 const prompt = require('prompt-sync')();
-let Pin = +prompt('Enter the pin code : ');
+let pin = +prompt('Enter the pin code : ');
 let attemps = 0;
 const correctPin = 1234;
-while(pin !== correctPin && attemps < 3)
-        {
-            attemps++;
-            if (pin !== correctPin && attemps < 3) { 
-               console.log("PIN is incorrect! Try again!" ); 
-            }
-        }
-        if(pin== correctPin && attemps <= 3) {  
-            console.log("Correct , Welcome Back !");  
-        }
+
+if(pin === correctPin && attemps <= 3) {
+
+   console.log("Correct , Welcome Back !");  
+}
         
-        else
-        {
-           console.log("PIN is incorrect! You are Blocked! See you!");
-        }
-        
+   while(pin !== correctPin && attemps < 3){
+     console.log("PIN is incorrect! Try again!" );  
+     pin = +prompt('Enter the pin code : ') 
+    attemps++
+   }
+
+  if( attemps > 3){
+     console.log("PIN is incorrect! You are Blocked! See you!");
+   }
+  
 
  

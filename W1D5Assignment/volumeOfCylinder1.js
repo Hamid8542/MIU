@@ -13,18 +13,18 @@
 // Write separate functions for each of the named formulas
 
 const prompt = require("prompt-sync")();
-var myRadius = (prompt("Enter the radius of your circle :", 0));
+let radius = (prompt("Enter the radius of your circle :", 0));
 
-function calculateArea(myRadius) {
-  return (myRadius * myRadius * Math.PI);
+function calculateArea(radius) {
+  return (radius * radius * Math.PI);
   
 }
 
 function MyArea() {
-  var area = calculateArea(myRadius);
+  let area = calculateArea(radius);
  
 }
 
-MyArea(myRadius);
-console.log(calculateArea(myRadius))
+MyArea(radius);
+console.log(calculateArea(radius))
 

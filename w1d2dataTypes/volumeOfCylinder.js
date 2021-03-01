@@ -6,6 +6,6 @@ const prompt = require ("prompt-sync")();
 let radiusOfCylinder = prompt("please enter the radius of a cylinder?: ")
 let hegitOfCylinder = prompt("please enter the height of a cylinder?: ")
 
-const volume = Math.PI * radiusOfCylinder * radiusOfCylinder * hegitOfCylinder
+const volume = Math.floor(Math.PI * radiusOfCylinder * radiusOfCylinder * hegitOfCylinder)
 console.log(`The Volume Of a Cylider is :  ${volume}`)
 

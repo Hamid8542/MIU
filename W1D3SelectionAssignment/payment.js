@@ -20,7 +20,7 @@ let housecost = prompt("How much is  your House Cost :");
         downPayment = ((housecost - 50000) * 0.1 + 1000);
    }
       else if (housecost < 200000) {
-         downPayment = (2000 + 0.2*(housecost - 100000));
+         downPayment = (2000 + 0.15*(housecost - 100000));
    }
 else(housecost >= 200000)
         downPayment = ((housecost - 200000) * 0.01 + 5000);

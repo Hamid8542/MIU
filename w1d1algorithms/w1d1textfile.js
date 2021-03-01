@@ -1,78 +1,78 @@
-W1D1 Algorithms assignment: 
+// W1D1 Algorithms assignment: 
 
-Read contents from referenced links. 
+// Read contents from referenced links. 
 
-What happen when an assignment is performed without using let or const keywords in strict mode? 
+// What happen when an assignment is performed without using let or const keywords in strict mode? 
 
-Ans.  
+// Ans.  
 
- It will generate an error 
-
- 
-
-List 5 reserved keywords in JavaScript 
+//  It will generate an error 
 
  
 
-Ans.  
-
-var, let, const, alert, return, for, do, while, break, if, else, while, typeof, switch, function, true, false, … 
+// List 5 reserved keywords in JavaScript 
 
  
 
-How is a computer program similar / different than an algorithm? 
+// Ans.  
 
-             Ans 
-
-A computer program is. 
+// var, let, const, alert, return, for, do, while, break, if, else, while, typeof, switch, function, true, false, … 
 
  
 
-Sequence of instructions. 
+// How is a computer program similar / different than an algorithm? 
 
-It complies specific rules.  
+//              Ans 
 
-Each computer language has their own specific syntax or rules to follow. 
-
-             Whereas An algorithm is  
-
-Step by step set of operations to perform specific task or problem.  
-
-Algorithms can be expressed using natural language, flowcharts, etc. 
-
-No need to comply specific rules.  
+// A computer program is. 
 
  
 
-Write at least two algorithms you perform on your daily life, with at least one algorithm that can be converted to computer program. 
+// Sequence of instructions. 
+
+// It complies specific rules.  
+
+// Each computer language has their own specific syntax or rules to follow. 
+
+//              Whereas An algorithm is  
+
+// Step by step set of operations to perform specific task or problem.  
+
+// Algorithms can be expressed using natural language, flowcharts, etc. 
+
+// No need to comply specific rules.  
 
  
 
-Algorithm 1. 
+// Write at least two algorithms you perform on your daily life, with at least one algorithm that can be converted to computer program. 
 
  
 
-Wakeup around 6 am in the morning every day. 
+// Algorithm 1. 
 
-Brash my teeth. 
+ 
 
-Morning prays. 
+// Wakeup around 6 am in the morning every day. 
 
-Do 10 to 15 min exercise. 
+// Brash my teeth. 
 
-Take a shower. 
+// Morning prays. 
 
-Morning meditation 
+// Do 10 to 15 min exercise. 
 
-Make and have breakfast. 
+// Take a shower. 
 
-Check email. 
+// Morning meditation 
 
-Check weather I have a leftover assignment from the other night? 
+// Make and have breakfast. 
 
-If there is a leftover assignment, complete the assignment. 
+// Check email. 
 
-If not prepare for today’s class 
+// Check weather I have a leftover assignment from the other night? 
+
+// If there is a leftover assignment, complete the assignment. 
+
+// If not prepare for today’s class 
 
  
 
@@ -80,26 +80,26 @@ If not prepare for today’s class
 
  
 
-Algorithm 2 
+// Algorithm 2 
 
  
 
-Everyday around 5:15 pm have a launch with my family. 
+// Everyday around 5:15 pm have a launch with my family. 
 
-Spent some time with my family. 
+// Spent some time with my family. 
 
-If I need to call, call, and return the phone call. 
+// If I need to call, call, and return the phone call. 
 
-Around 6:30 pm focus on my study.  
+// Around 6:30 pm focus on my study.  
 
-Check email and Sakai website to check assignment for the day. 
+// Check email and Sakai website to check assignment for the day. 
 
-If the assignment can do easily, do the assignment. 
+// If the assignment can do easily, do the assignment. 
 
-If not read related material  
+// If not read related material  
 
-If I can complete the assignment before 9:00 pm submit the assignment 
+// If I can complete the assignment before 9:00 pm submit the assignment 
 
-If not leave the assignment for the next day  
+// If not leave the assignment for the next day  
 
-Prepare myself for bed  
+// Prepare myself for bed  

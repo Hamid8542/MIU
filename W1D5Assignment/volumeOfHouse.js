@@ -9,3 +9,10 @@
 // triangleArea = √s(s−a)(s−b)(s−c)
 // s = (a+b+c)/2
 // Write separate functions for each of the named formulas
+
+const prompt = require("prompt-sync")();
+var myWidth = (prompt("Enter Width :", 0));
+var myDepth = (prompt("Enter Depth :", 0))
+var myHeight = (prompt("Enter Height :", 0))
+var mySweep = (prompt("Enter sweep :", 0))
+

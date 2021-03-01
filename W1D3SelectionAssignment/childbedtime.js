@@ -17,7 +17,7 @@ Age                        Season                               Bed Time
     let age = prompt("Tell me Your age , I will tell you your bed time :");
     let season = prompt(" Please enter the season : ");
 
-    if((age <= 5 && (season === "summer") || (season === "fall"))){
+    if((age <= 5 && season === "summer" || (season === "fall"))){
 
       console.log(" Child's bedtime 8:30 p.m "); 
     }
